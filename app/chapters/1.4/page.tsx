@@ -17,7 +17,7 @@ export default function Chapter1_4() {
             Previous Chapter
           </Button>
         </Link>
-        <Link href="/chapters/1.5">
+        <Link href="/chapters/2">
           <Button variant="ghost" className="gap-2">
             Next Chapter
             <ArrowRight className="h-4 w-4" />
