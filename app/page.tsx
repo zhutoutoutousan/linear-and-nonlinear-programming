@@ -54,7 +54,9 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
                   <Button className="hover:scale-105 transition-transform">Start Learning</Button>
-                  <Button variant="outline" className="hover:scale-105 transition-transform">View Syllabus</Button>
+                  <Link href="/syllabus">
+                    <Button variant="outline" className="hover:scale-105 transition-transform">View Syllabus</Button>
+                  </Link>
                 </div>
               </div>
               <div className="flex justify-center">

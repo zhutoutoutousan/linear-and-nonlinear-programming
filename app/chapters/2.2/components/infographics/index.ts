@@ -1,0 +1,5 @@
+export { DietProblemInfographic } from "./diet-problem-infographic"
+export { ManufacturingProblemInfographic } from "./manufacturing-problem-infographic"
+export { TransportationProblemInfographic } from "./transportation-problem-infographic"
+export { MaximalFlowInfographic } from "./maximal-flow-infographic"
+export { WarehousingInfographic } from "./warehousing-infographic" 

@@ -33,19 +33,61 @@ export default function ChaptersListPage() {
           progress: 100,
           completed: true,
           unlocked: true,
+        },
+        {
+          id: "1.3",
+          title: "Size of Problems",
+          description: "Understanding problem complexity and computational implications",
+          progress: 100,
+          completed: true,
+          unlocked: true,
+        },
+        {
+          id: "1.4",
+          title: "Iterative Algorithms and Convergence",
+          description: "Understanding algorithm convergence and theoretical foundations",
+          progress: 100,
+          completed: true,
+          unlocked: true,
         }
       ]
     },
     {
       id: 2,
-      title: "Linear Algebra Review",
-      description: "Matrices, vectors, and linear transformations",
-      progress: 100,
-      completed: true,
+      title: "Basic Properties of Linear Programs",
+      description: "Understanding linear programming fundamentals",
+      progress: 75,
+      completed: false,
       unlocked: true,
       sections: 4,
       exercises: 10,
-      currentSection: "2.1 Matrices",
+      currentSection: "2.1 Introduction",
+      subsections: [
+        {
+          id: "2.1",
+          title: "Introduction",
+          description: "Understanding linear programming and standard form",
+          progress: 100,
+          completed: true,
+          unlocked: true,
+        },
+        {
+          id: "2.2",
+          title: "Basic Feasible Solutions",
+          description: "Understanding basic feasible solutions and their properties",
+          progress: 50,
+          completed: false,
+          unlocked: true,
+        },
+        {
+          id: "2.3",
+          title: "Optimality Conditions",
+          description: "Conditions for optimality in linear programming",
+          progress: 0,
+          completed: false,
+          unlocked: true,
+        }
+      ]
     },
     {
       id: 3,
@@ -57,6 +99,32 @@ export default function ChaptersListPage() {
       sections: 6,
       exercises: 15,
       currentSection: "3.2 Graphical Solutions",
+      subsections: [
+        {
+          id: "3.1",
+          title: "Introduction to Linear Programming",
+          description: "Basic concepts and problem formulation",
+          progress: 100,
+          completed: true,
+          unlocked: true,
+        },
+        {
+          id: "3.2",
+          title: "Graphical Solution Method",
+          description: "Solving linear programs graphically",
+          progress: 100,
+          completed: true,
+          unlocked: true,
+        },
+        {
+          id: "3.3",
+          title: "Standard Form and Canonical Form",
+          description: "Understanding different forms of linear programs",
+          progress: 50,
+          completed: false,
+          unlocked: true,
+        }
+      ]
     },
     {
       id: 4,
@@ -68,6 +136,32 @@ export default function ChaptersListPage() {
       sections: 7,
       exercises: 18,
       currentSection: "4.1 Basic Concepts",
+      subsections: [
+        {
+          id: "4.1",
+          title: "Basic Concepts",
+          description: "Understanding the simplex method fundamentals",
+          progress: 0,
+          completed: false,
+          unlocked: true,
+        },
+        {
+          id: "4.2",
+          title: "Simplex Algorithm",
+          description: "Step-by-step implementation of the simplex method",
+          progress: 0,
+          completed: false,
+          unlocked: true,
+        },
+        {
+          id: "4.3",
+          title: "Degeneracy and Cycling",
+          description: "Handling special cases in the simplex method",
+          progress: 0,
+          completed: false,
+          unlocked: true,
+        }
+      ]
     },
     {
       id: 5,
@@ -79,6 +173,32 @@ export default function ChaptersListPage() {
       sections: 5,
       exercises: 14,
       currentSection: "Locked",
+      subsections: [
+        {
+          id: "5.1",
+          title: "Dual Problems",
+          description: "Understanding dual linear programs",
+          progress: 0,
+          completed: false,
+          unlocked: false,
+        },
+        {
+          id: "5.2",
+          title: "Complementary Slackness",
+          description: "Understanding complementary slackness conditions",
+          progress: 0,
+          completed: false,
+          unlocked: false,
+        },
+        {
+          id: "5.3",
+          title: "Economic Interpretation",
+          description: "Economic meaning of dual variables",
+          progress: 0,
+          completed: false,
+          unlocked: false,
+        }
+      ]
     },
   ]
 
