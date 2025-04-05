@@ -4,6 +4,7 @@ import './globals.css'
 import { ThemeProvider } from './components/theme-provider'
 import { Navbar } from './components/navbar'
 import { Footer } from './components/footer'
+import { SlideNav } from './components/slide-nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -66,7 +67,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} min-h-screen bg-background text-foreground flex flex-col`}>
         <ThemeProvider>
-          <Navbar />
+          <SlideNav />
           <div className="flex-1">
             {children}
           </div>
