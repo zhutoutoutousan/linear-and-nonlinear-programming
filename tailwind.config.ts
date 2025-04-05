@@ -83,11 +83,49 @@ const config: Config = {
   				to: {
   					height: '0'
   				}
+  			},
+  			'gradient-shift': {
+  				'0%': {
+  					backgroundPosition: '0% 50%'
+  				},
+  				'50%': {
+  					backgroundPosition: '100% 50%'
+  				},
+  				'100%': {
+  					backgroundPosition: '0% 50%'
+  				}
+  			},
+  			shimmer: {
+  				'0%': {
+  					transform: 'translateX(-100%)'
+  				},
+  				'100%': {
+  					transform: 'translateX(100%)'
+  				}
+  			},
+  			'pulse-slow': {
+  				'0%': {
+  					boxShadow: '0 0 15px rgba(var(--primary), 0.3)',
+  					backgroundColor: 'rgba(var(--background), 0.3)'
+  				},
+  				'50%': {
+  					boxShadow: '0 0 25px rgba(var(--primary), 0.6)',
+  					backgroundColor: 'rgba(var(--background), 0.5)'
+  				}
   			}
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+  			'gradient-shift': 'gradient-shift 15s ease infinite',
+  			'pulse-slow': 'pulse-slow 3s ease-in-out infinite',
+  			shimmer: 'shimmer 8s linear infinite'
+  		},
+  		backgroundSize: {
+  			'auto': 'auto',
+  			'cover': 'cover',
+  			'contain': 'contain',
+  			'200%': '200%'
   		}
   	}
   },
